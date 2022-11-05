@@ -1,0 +1,16 @@
+1.Step
+mkdir Homeworks->git init
+2.Step
+touch program.py->git add program.py->git commit -> git branch arman 
+->git checkout arman -> touch main.py -> vim main.py // print("Hello Wold")
+3.Step
+Add token in url 
+4.Step
+git add main.py->git commit->git push origin arman
+5.Step
+git tag -a V1 (hash value in last commit) -m "Tag V1" > git push origin V1
+6.Step
+Pull request ->selected branchs -> Create pull request -> Add messages -> Merge pull request 
+7.Step
+cd ./.git/hooks -> vim pre_commit.sample -> write  echo "Hello World" -> mv pre_commit.sampple pre_commit -> 
+-> but commenting all program
